@@ -11,7 +11,7 @@ This dockerfile is used to build a docker image running Ubuntu 18.04, with ROS M
 1. *After Steps 2 & 3, `/etc/docker/daemon.json` should look similar to below. Key parameters are "data-root", "runtimes", and "default-runtime".
     ```
     {
-        "data-root": "/home/jonyktan/docker",
+        "data-root": "/mnt/hdd/docker",
         "runtimes": {
             "nvidia": {
                 "path": "nvidia-container-runtime",
